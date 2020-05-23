@@ -18,6 +18,12 @@
 // Date : 20-08-2020
 // global arrays
 
+<meta name="viewport" content="width=device-widht">
+<style>
+.Main_Carousel, full_title, left_side, no_side{
+display: none;
+}
+
    var postTitle = new Array();     // array of posttitles
    var postUrl = new Array();       // array of posturls
    var postDate = new Array();      // array of post publish dates
