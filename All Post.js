@@ -13,9 +13,9 @@
 // Version: 1
 // Date: 2020-05-25
 // ---------------------------------------------------
-// Modified by Aneesh 
-// www.bloggerplugins.org
-// Date : 02-08-2011
+// Modified by Mao Num
+// www.maonum.com
+// Date : 20-08-2020
 // global arrays
 
    var postTitle = new Array();     // array of posttitles
@@ -182,7 +182,7 @@ function displayToc(filter) {
 // this function creates a three-column table and adds it to the screen
    var numDisplayed = 0;
    var tocTable = '';
-      var tocHead1 = '<font style="font-family:GHK KengTung"> ႁူဝ်ၶေႃႈမူႇလိၵ်ႈ ဢၼ်တၢင်ႇလူင်း</font>';
+   var tocHead1 = 'ႁူဝ်ၶေႃႈမူႇလိၵ်ႈ ဢၼ်တၢင်ႇလူင်း';
    var tocTool1 = 'Click to sort by title';
    var tocHead2 = 'ဝၼ်းထိ';
    var tocTool2 = 'Click to sort by date';
@@ -233,7 +233,7 @@ function displayToc(filter) {
    }
    tocTable += '</table>';
    if (numDisplayed == postTitle.length) {
-      var tocNote = '<span class="toc-note">Displaying all ' + postTitle.length + ' posts<br/></span>'; }
+      var tocNote = '<span class="toc-note">မူႇလိၵ်ႈဢၼ်တၢင်ႇလူင်းတင်းမူတ်းမီး ' + postTitle.length + ' ႁူဝ်<br/></span>'; }
    else {
       var tocNote = '<span class="toc-note">Displaying ' + numDisplayed + ' posts labeled \'';
       tocNote += postFilter + '\' of '+ postTitle.length + ' posts total<br/></span>';
