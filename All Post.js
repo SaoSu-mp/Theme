@@ -182,7 +182,7 @@ function displayToc(filter) {
 // this function creates a three-column table and adds it to the screen
    var numDisplayed = 0;
    var tocTable = '';
-   var tocHead1 = 'ႁူဝ်ၶေႃႈမူႇလိၵ်ႈ ဢၼ်တၢင်ႇလူင်း';
+      var tocHead1 = '<font style="font-family:GHK KengTung"> ႁူဝ်ၶေႃႈမူႇလိၵ်ႈ ဢၼ်တၢင်ႇလူင်း</font>';
    var tocTool1 = 'Click to sort by title';
    var tocHead2 = 'ဝၼ်းထိ';
    var tocTool2 = 'Click to sort by date';
