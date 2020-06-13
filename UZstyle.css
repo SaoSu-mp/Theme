@@ -55,7 +55,7 @@ textarea{
 	
 
 
-#textContainer {
+#textContainer1 {
 	padding: 5px; 
 }
 
@@ -72,7 +72,7 @@ textarea{
 	padding: 0px;
 }
 
-textarea {
+textarea1 {
 	min-height:200px;
 	font-size: .9em;
 	padding: 10px !important;
