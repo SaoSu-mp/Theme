@@ -2,6 +2,10 @@ header{
 	text-align:center;
 }
 
+header h2{
+	display: none;
+}
+
 menu {
     text-align: right!important;
 }
@@ -18,7 +22,7 @@ body, section, #container {
 textarea{
 	max-width:100%;
 	min-width:100%;
-	min-height:200px;
+	min-height:300px;
 	padding: 10px;
 	line-height: 1.8em;
 	font-size: 1em;
@@ -34,7 +38,7 @@ textarea{
 	display:inline-block;
 	width:48%;
 	padding-left: 10px;
-	font-family:  "GHK TaungGyi", "MON3 Anonta 1", "PangLong";	
+	font-family: "MON3 Anonta 1", "PangLong", "GHK TaungGyi";	
 
 }
 
@@ -45,7 +49,7 @@ textarea{
 	font-family: "Zawgyi-Tai";
 }
 
-@media(max-width:auto){
+@media(max-width:701px){
 	
 
 
@@ -71,13 +75,28 @@ textarea {
 	font-size: .9em;
 	padding: 10px !important;
 }
-
+img {
+    
+    border-radius: 10px;
+    margin-bottom: 10px;
+    
+}
 
  p {
-    font-family:"GHK TaungGyi", "MON3 Anonta 1", "PangLong";
+    font-family: "MON3 Anonta 1", "PangLong", "GHK TaungGyi";
 }
 }
 
+img {
+    
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    
+}
 
+ p {
+    font-family: "MON3 Anonta 1", "PangLong", "GHK TaungGyi";
+}
 
 }
