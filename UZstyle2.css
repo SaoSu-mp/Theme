@@ -23,7 +23,7 @@ textarea{
 	text-align: left;
 }
 
-#textContainer {
+#textContainer1 {
 	text-align: center;
 }
 
@@ -47,7 +47,7 @@ textarea{
 	
 }
 
-@media(max-width:730px){
+@media(max-width:701px){
 	
 	
 
