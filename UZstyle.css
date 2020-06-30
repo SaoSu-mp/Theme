@@ -6,9 +6,6 @@ header h2{
 	display: none;
 }
 
-h3{
-	text-align:center;
-}
 
 
 
@@ -53,7 +50,7 @@ textarea{
 	
 
 
-#textContainer1 {
+#textContainer {
 	padding: 5px; 
 }
 
