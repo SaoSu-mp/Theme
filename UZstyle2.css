@@ -2,6 +2,10 @@ header{
 	text-align:center;
 }
 
+header h2{
+	display: none;
+}
+
 h3{
 	text-align:center;
 }
@@ -11,10 +15,16 @@ body, section, #container {
 	padding: 0px;
 }
 
+footer{
+	clear:both;
+	text-align:center;
+	padding-top:30px;
+}
+
 textarea{
 	max-width:100%;
 	min-width:100%;
-	min-height:250px;
+	min-height:300px;
 	padding: 10px;
 	line-height: 1.8em;
 	font-size: 1em;
@@ -30,7 +40,7 @@ textarea{
 	display:inline-block;
 	width:48%;
 	padding-left: 10px;
-	font-family:"GreatHorKham Yangon","GHK TaungGyi","Noto Sans Myanmar","Pyidaungsu";
+	font-family: "Noto Sans Myanmar","Pyidaungsu";
 	
 	
 
@@ -40,14 +50,14 @@ textarea{
 	display:inline-block;
 	width:48%;
 	padding-right: 10px;
-	font-family: "Zawgyi-Tai","Zawgyi-One";
+	font-family: "Zawgyi-One";
 	
 	
 
 	
 }
 
-@media(max-width:100%){
+@media(max-width:701px){
 	
 
 
