@@ -182,11 +182,11 @@ function displayToc(filter) {
 // this function creates a three-column table and adds it to the screen
    var numDisplayed = 0;
    var tocTable = '';
-   var tocHead1 = '<font style="font-family:GHK KengTung">ႁူဝ်ၶေႃႈမူႇလိၵ်ႈ ဢၼ်တၢင်ႇလူင်းတင်းမူတ်း</font>';
+   var tocHead1 = '<font style="font-family:GHK KengTung">POST TITLE</font>';
    var tocTool1 = 'Click to sort by title';
-   var tocHead2 = '<font style="font-family:GHK KengTung">ဝၼ်းထိ</font>';
+   var tocHead2 = '<font style="font-family:GHK KengTung">POST DATE</font>';
    var tocTool2 = 'Click to sort by date';
-   var tocHead3 = '<font style="font-family:GHK KengTung">ၶၵ်ႉတွၼ်ႈလွင်ႈတၢင်း</font>';
+   var tocHead3 = '<font style="font-family:GHK KengTung">LABELS</font>';
    var tocTool3 = '';
    if (sortBy == "titleasc") { 
       tocTool1 += ' (descending)';
@@ -233,7 +233,7 @@ function displayToc(filter) {
    }
    tocTable += '</table>';
    if (numDisplayed == postTitle.length) {
-      var tocNote = '<span class="toc-note">မူႇလိၵ်ႈဢၼ်တၢင်ႇလူင်းတင်းမူတ်းမီး ' + postTitle.length + ' ႁူဝ်<br/></span>'; }
+      var tocNote = '<span class="toc-note">Displaying all ' + postTitle.length + ' posts<br/></span>'; }
    else {
       var tocNote = '<span class="toc-note">Displaying ' + numDisplayed + ' posts labeled \'';
       tocNote += postFilter + '\' of '+ postTitle.length + ' posts total<br/></span>';
